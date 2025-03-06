@@ -13,7 +13,7 @@ export function Info() {
       <div className="educational-info">
         <span>🎓</span>
         {/* eslint-disable-next-line react/no-unescaped-entities */}
-        <span>Bachelor's degree in Sistemas da Informação from Universidade Federal de Goiás</span>
+        <span> Bachelor's degree in Sistemas da Informação from Universidade Federal de Goiás</span>
       </div>
     </div>
   )
