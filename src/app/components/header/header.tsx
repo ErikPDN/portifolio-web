@@ -12,8 +12,8 @@ export function Header() {
       <Image
         src="/perfil.jpg"
         alt="Me photo"
-        width={325}
-        height={310}
+        width={1000}
+        height={410}
         priority
       />
     </div>

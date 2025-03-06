@@ -1,0 +1,36 @@
+.infos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 24px;
+  max-width: 500px;
+  color: var(--text-secondary);
+
+  grid-area: info;
+
+  .languages-info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .educational-info {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  @media (min-width: 768px) {
+      align-items: flex-start;
+      
+      .educational-info {
+          font-size: 20px;
+          line-height: 36px;
+          text-align: start;
+      }
+  }
+}
